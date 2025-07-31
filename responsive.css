@@ -1,0 +1,98 @@
+
+/* Phone */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .choices {
+        /* flex-direction: column; */
+        gap: 1.2rem;
+    }
+
+    .choice img {
+        height: 100px;
+    }
+
+    .scoreBoard {
+        /* flex-direction: column; */
+        gap: 0.8rem;
+        margin-top: 1.5rem;
+    }
+
+    .score{
+        font-size: 0.8rem;
+    }
+
+    #user, #comp{
+        font-size: 1.5rem;
+        
+    }
+
+    #msg {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    #bn {
+        font-size: 0.9rem;
+        padding: 0.4rem 1rem;
+    }
+
+    .btn {
+        margin: 1.5rem 0;
+    }
+}
+
+
+
+/* Tablets */
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .choices {
+        gap: 1.5rem;
+    }
+
+    .choice img {
+        height: 120px;
+    }
+
+    .scoreBoard {
+        gap: 1rem;
+    }
+
+    #msg {
+        font-size: 1.3rem;
+    }
+
+    #bn {
+        font-size: 1rem;
+        padding: 0.5rem 1.2rem;
+    }
+}
+
+/* ========== Desktops ========== */
+@media only screen and (min-width: 993px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .choice img {
+        height: 150px;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+    }
+
+    #bn {
+        font-size: 1rem;
+        padding: 0.5rem 1.2rem;
+    }
+}
