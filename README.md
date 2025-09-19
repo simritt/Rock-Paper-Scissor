@@ -1,3 +1,4 @@
-# Tic Tac Toe Game
-Built this game as my 1st java script mini project.
-It is a 2-player game that displays who the winner is or displays draw in case of a tie match. The game also has a reset option.
+# Rock Paper Scissors Game
+Built this game as basic front end mini project.
+The game is 1 user v/s computer.
+User selects its choice, computer randomly makes its choice. Both the chosen options are displayed and the score is updated. I've also added a reset option.
